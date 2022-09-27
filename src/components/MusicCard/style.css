@@ -1,0 +1,23 @@
+.music-card {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: 436px;
+    max-width: 260px;
+}
+
+.music-card img:hover {
+    transform: scale(1.05);
+}
+
+.music-card h3 {
+    color: var(--primary-color);
+    font: normal 700 20px/24px 'Rubik', sans-serif;
+}
+
+.music-card p {
+    color: var(--secundary-color);
+    font: normal 400 16px/19px 'Rubik', sans-serif;
+    text-align: justify;
+}

@@ -1,0 +1,17 @@
+.play-list {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 49px;
+    max-width: 1121px;
+}
+
+h2 {
+    margin-bottom: 24px;
+}
+
+.music-cards-container {
+    border-top: 1px solid var(--border-color);
+    display: flex;
+    gap: 27px;
+    padding-top: 12px;
+}

@@ -1,0 +1,26 @@
+.music-player-container {
+    align-items: center;
+    background: linear-gradient(180deg, #383535 0%, rgba(133, 130, 130, 0) 100%);
+    border: 2px solid rgba(0, 0, 0, 0.21);
+    display: flex;
+    height: 132px;
+    justify-content: center;
+    padding: 16px 32px 32px;
+    position: relative;
+    width: 100vw;
+}
+
+.song-information {
+    left: 32px;
+    position: absolute;
+    top: 24px;
+}
+
+.music-controller-buttons {
+    display: flex;
+    gap: 40px;
+}
+
+.music-controller-buttons img {
+    cursor: pointer;
+}
